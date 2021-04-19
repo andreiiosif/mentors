@@ -1,0 +1,114 @@
+.blog-content
+{
+    width: 60%;
+    margin: auto;
+    height: auto;
+}
+
+.blog-content .add-content
+{
+    padding-top: 15px;
+    width: 120px;
+    height: 50px;
+}
+
+.blog-content .add-content .add-buton
+{
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.blog-content .add-content a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.blog-content .add-content .add-buton:hover
+{
+    color: white;
+    background-color: black;
+}
+
+.blog-content .add-content a:hover
+{
+    color: white;
+}
+
+.blog-content .articol
+{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 95%;
+    height: auto;
+    font-family: 'Roboto Light';
+
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.blog-content .articol .art-title
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.blog-content .articol .art-author
+{
+    display: flex;
+    height: 40px;
+    width: 350px;
+}
+
+.blog-content .articol .art-author .art-author-name
+{
+    width: auto;
+    margin: auto;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.blog-content .articol .art-author .art-time
+{
+    margin: auto;
+    margin-left: 5px;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.blog-content .articol .photo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.blog-content .articol .art-body
+{
+    width: 100%;
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 760px) {
+    .blog-content
+    {
+        width: 96%;
+    }
+}

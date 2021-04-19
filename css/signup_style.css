@@ -1,0 +1,107 @@
+/* Sign up part .php */
+
+.sign-up-body
+{
+    color: black;
+    background-color: #f5f5f5;
+    height: 550px;
+}
+
+.signup-form
+{
+    width: 350px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #F7F7F7;
+    box-shadow: 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white;
+}
+
+.sign-up-body .sign-up-title
+{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Bitter';
+}
+
+.sign-up-body .login-title
+{
+    font-size: 15px;
+    font-family: 'Bitter';
+}
+
+.sign-up-body .login-title a
+{
+    text-decoration: none;
+    color: #49c5b6;
+}
+
+.signup-form .logo
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    padding-top: 17px;
+    float: left;
+    color: black;
+}
+
+.signup-form input
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    width: 75%;
+    height: 45px;
+    padding: 0px 5%;
+    margin-left: 35px;
+    margin-bottom: 18px;
+    background-color: transparent;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4ac4b5;
+    line-height: 40px;
+    outline: none;
+    border-radius: 0px;
+    border-bottom-color: #4ac4b5;
+    transition: 0.25s;
+}
+
+.signup-form button
+{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: #4ac4b5;
+    border-width: 2px;
+}
+
+.signup-form .sgn-err
+{
+    color: black;
+    margin-left: 15px;
+}
+
+.signup-form button:hover
+{
+    box-shadow: 0 0 10px #4ac4b5, 0 0 10px #4ac4b5, 0 0 10px #4ac4b5, 0 0 10px #4ac4b5;
+    background-color: #4ac4b5;
+}

@@ -1,0 +1,128 @@
+.main-acc
+{
+    height: 680px;
+    padding-top: 50px;
+}
+
+.main-acc .main-info
+{
+    margin: auto;
+    width: 550px;
+    height: auto;
+    border: 1px solid #4ac4b5;
+    box-shadow: 0 0 10px #4ac4b5, 0 0 0px #4ac4b5, 0 0 0px #4ac4b5, 0 0 10px #4ac4b5;
+}
+
+.main-info .id
+{
+    font-size: 30px;
+}
+
+.main-info-acc-photo
+{
+    height: 280px;
+    margin-top: 25px;
+}
+
+.main-info-acc-photo .ph
+{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 160px;
+    /*background-image: url("/blake/users/dienyska1234/picture.jpg");*/
+    background-size: 250px 250px;
+    border: 1px solid black;
+}
+
+.main-info-acc-edit
+{
+    margin-top: 20px;
+    height: 40px;
+}
+
+.main-info-acc-edit .logo
+{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.main-info-acc-edit .logo a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.main-info-id
+{
+    height: 50px;
+    text-align: center;
+    font-family: 'Pangolin';
+    font-size: 35px;
+    font-weight: bolder;
+    color: #4ac4b5;
+}
+
+.main-info-name
+{
+    text-align: center;
+    font-family: 'Acme';
+    font-size: 25px;
+}
+
+.main-info-email
+{
+    text-align: center;
+    font-family: 'Acme';
+    font-size: 25px;
+}
+
+.main-info-rank
+{
+    text-align: center;
+    font-family: 'Acme';
+    font-size: 25px;
+}
+
+.log-out
+{
+    height: 50px;
+    padding-bottom: 30px;
+}
+
+.log-out .butt
+{
+    margin: auto;
+    height: 50px;
+    width: 100px;
+}
+
+.log-out .butt button
+{
+    height: 50px;
+    width: 100px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Heebo';
+    font-weight: bolder;
+    color: white;
+    background-color: #49c5b6;
+}
+
+.log-out .butt button:hover
+{
+    background-color: #309c90;
+    color: white;
+}
+
+@media only screen and (max-width: 760px) {
+    .main-acc .main-info
+    {
+        margin: auto;
+        width: 350px;
+        height: auto;
+        border: 1px solid #4ac4b5;
+        box-shadow: 0 0 10px #4ac4b5, 0 0 0px #4ac4b5, 0 0 0px #4ac4b5, 0 0 10px #4ac4b5;
+    }
+}

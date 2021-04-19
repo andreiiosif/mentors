@@ -1,0 +1,139 @@
+.main-accedit
+{
+    height: auto;
+}
+
+.myacc-edit
+{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    height: auto;
+    border: 1px solid #4ac4b5;
+    box-shadow: 0 0 10px #4ac4b5, 0 0 0px #4ac4b5, 0 0 0px #4ac4b5, 0 0 10px #4ac4b5;
+}
+
+.myacc-edit .titlu
+{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Acme';
+    margin-top: 10px;
+}
+
+.main-info-acc-photo
+{
+    height: 280px;
+    margin-top: 25px;
+}
+
+.main-info-acc-photo .ph
+{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 160px;
+    /*background-image: url("/blake/users/dienyska1234/picture.jpg");*/
+    background-size: 250px 250px;
+    border: 1px solid black;
+}
+
+.myacc-edit .insert-bar
+{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.submit-bar button
+{
+    border: none;
+    background-color: #2b2b2b;
+    color: white;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: #4ac4b5;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form1 .submit-bar
+{
+    margin-left: 10px;
+}
+
+.submit-bar button:hover
+{
+    box-shadow: 0 0 10px #4ac4b5, 0 0 10px #4ac4b5, 0 0 10px #4ac4b5, 0 0 10px #4ac4b5;
+    background-color: #4ac4b5;
+}
+
+.myacc-edit .nume
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.myacc-edit .prenume
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.myacc-edit .email
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.myacc-edit .password
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.myacc-edit .form2 
+{
+    height: auto;
+}
+
+.myacc-edit .form2 input
+{
+    width: 180px;
+    height: 30px;
+}
+
+.warn
+{
+    margin-top: 5px;
+}
+
+.warn-photo
+{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 760px) {
+    .myacc-edit
+    {
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 350px;
+        height: auto;
+        border: 1px solid #4ac4b5;
+        box-shadow: 0 0 10px #4ac4b5, 0 0 0px #4ac4b5, 0 0 0px #4ac4b5, 0 0 10px #4ac4b5;
+    }
+}
